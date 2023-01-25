@@ -4,3 +4,43 @@
     margin: 0px;
     padding: 0px;
 }
+
+.header{
+    background-color: black;
+    padding: 1rem;
+    border-bottom: 5px solid orange;
+    position: sticky;
+}
+
+.logo{
+    color: orange;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+    padding: 4rem;
+}
+
+.tlouImage{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border: 5px solid orange;
+    display: inline;
+}
+
+.image {
+    background-color: black;
+    width: 50vh;
+    margin-top: 30px;
+    padding: 5px;
+}
+
+.Title {
+    color: black;
+    text-align: center;
+}
