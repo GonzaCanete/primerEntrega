@@ -6,41 +6,76 @@
 }
 
 .header{
+    width: 100vw;
     background-color: black;
-    padding: 1rem;
+    padding: 1vh;
     border-bottom: 5px solid orange;
-    position: sticky;
+    position: fixed;
+    top: 0;
+    bottom: 10;
 }
 
 .logo{
     color: orange;
     text-align: center;
     font-size: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 5vh;
 }
 
 a {
     color: orange;
     text-decoration: none;
-    padding: 4rem;
+    font-size: 20px;
+    padding-left: 3vw;
+    padding-right: 10vw;
 }
 
-.tlouImage{
-    width: 250px;
-    height: 250px;
-    margin: 10px;
-    border: 5px solid orange;
+body {
+    margin-top: 200px;
+}
+
+.image{
     display: inline;
 }
 
-.image {
-    background-color: black;
-    width: 50vh;
-    margin-top: 30px;
-    padding: 5px;
+.title{
+    display: inline;
+}
+.tlouImage{
+    width: 300px;
+    height: 300px;
+    margin-left: 2rem ;
+    border: 5px solid orange;
+    
 }
 
-.Title {
+
+.tloutitle {
     color: black;
     text-align: center;
+    font-weight: bold;
+    font-size: 300%;
+    /* Fuente 'Montserrat' */
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+    
+    
+    
+}
+
+p {
+    color: black;
+    font-weight: bold;
+    font-size: 150%;
+    /* Fuente 'Montserrat' */
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.trailerTLOU {
+    width: 50vw;
+    height: 30vh;
+    
 }
