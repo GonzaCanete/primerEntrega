@@ -18,26 +18,31 @@
 .logo{
     color: orange;
     text-align: center;
-    font-size: 50px;
+    font-size: 70px;
     margin-bottom: 5vh;
 }
 
 a {
     color: orange;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
     padding-left: 3vw;
     padding-right: 10vw;
 }
 
+/* Margen para dejar el header en flex */
+
 body {
-    margin-top: 200px;
+    margin-top: 300px;
 }
+
+/* Intento dejar la imagen a la izquierda y el titulo y texto a la derecha */
 
 .image{
     display: inline;
 }
 
+/* Intento dejar la imagen a la izquierda y el titulo y texto a la derecha */
 .title{
     display: inline;
 }
