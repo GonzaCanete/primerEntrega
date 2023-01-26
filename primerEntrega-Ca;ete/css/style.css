@@ -49,8 +49,8 @@ body {
 
 .Image{
     width: 300px;
-    height: 300px;
-    margin-left: 2rem ;
+    height: 250px;
+    margin-left: 37vw ;
     margin-top: 5vh;
     border: 5px solid orange;
     
@@ -101,11 +101,21 @@ p {
 .label {
     color: orange;
     font-size: 30px;
-    margin-left: 45vw;
-    display: block;
+    text-align: center;
 }
 
 #p1 {
     font-size: 200%;
     text-align: center;
 }
+
+li {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline solid gray;
+    margin-bottom: 5px;
+}
+
