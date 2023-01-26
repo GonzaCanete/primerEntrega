@@ -12,28 +12,28 @@
     border-bottom: 5px solid orange;
     position: fixed;
     top: 0;
-    bottom: 10;
+    bottom: 5;
 }
 
 .logo{
     color: orange;
     text-align: center;
-    font-size: 70px;
-    margin-bottom: 5vh;
+    font-size: 50px;
+    margin-bottom: 1vh;
 }
 
 a {
     color: orange;
     text-decoration: none;
-    font-size: 22px;
-    padding-left: 3vw;
-    padding-right: 10vw;
+    font-size: 17px;
+    margin-left: 3vw;
+    margin-right: 8vw;
 }
 
 /* Margen para dejar el header en flex */
 
 body {
-    margin-top: 25vh;
+    margin-top: 30vh;
 }
 
 /* Intento dejar la imagen a la izquierda y el titulo y texto a la derecha */
@@ -60,7 +60,7 @@ body {
     color: black;
     text-align: center;
     font-weight: bold;
-    font-size: 300%;
+    font-size: 200%;
     /* Fuente 'Montserrat' */
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 10px;
@@ -70,7 +70,7 @@ body {
 p {
     color: black;
     font-weight: bold;
-    font-size: 150%;
+    font-size: 120%;
     /* Fuente 'Montserrat' */
     font-family: 'Montserrat', sans-serif;
     margin: 20px;
@@ -117,5 +117,17 @@ li {
     color: black;
     text-decoration: underline solid gray;
     margin-bottom: 5px;
+}
+
+.parrafo {
+    font-family: 'Aboreto', cursive;
+    font-size:  30px;
+    text-align: center;
+}
+
+.album{
+    width: 50vw;
+    height: 50vh;
+    margin-left: 25vw;
 }
 
