@@ -33,7 +33,7 @@ a {
 /* Margen para dejar el header en flex */
 
 body {
-    margin-top: 300px;
+    margin-top: 25vh;
 }
 
 /* Intento dejar la imagen a la izquierda y el titulo y texto a la derecha */
@@ -47,15 +47,16 @@ body {
     display: inline;
 }
 
-.tlouImage{
+.Image{
     width: 300px;
     height: 300px;
     margin-left: 2rem ;
+    margin-top: 5vh;
     border: 5px solid orange;
     
 }
 
-.tloutitle {
+.Title {
     color: black;
     text-align: center;
     font-weight: bold;
@@ -74,13 +75,37 @@ p {
     font-family: 'Montserrat', sans-serif;
     margin: 20px;
     margin-bottom: 30px;
-    position: relative;
+    
 }
 
-.trailerTLOU {
+.Trailer {
     width: 50vw;
     height: 30vh;
     margin-left: 25vw;
     border: 5px solid orange;
+    margin-bottom: 5vw;
+
 }
 
+.Article {
+    border-bottom: 1px solid grey;
+}
+
+.Footer {
+    background-color: black;
+    width: 100vw;
+    height: 15vh;
+    border-top: 5px solid orange;
+}
+
+.label {
+    color: orange;
+    font-size: 30px;
+    margin-left: 45vw;
+    display: block;
+}
+
+#p1 {
+    font-size: 200%;
+    text-align: center;
+}
