@@ -41,6 +41,7 @@ body {
 .title{
     display: inline;
 }
+
 .tlouImage{
     width: 300px;
     height: 300px;
@@ -48,7 +49,6 @@ body {
     border: 5px solid orange;
     
 }
-
 
 .tloutitle {
     color: black;
@@ -58,9 +58,7 @@ body {
     /* Fuente 'Montserrat' */
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 10px;
-    
-    
-    
+    text-decoration: underline solid orange;
 }
 
 p {
@@ -77,5 +75,6 @@ p {
 .trailerTLOU {
     width: 50vw;
     height: 30vh;
-    
+    margin-left: 25vw;
+    border: 5px solid orange;
 }
